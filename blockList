@@ -1,3 +1,9 @@
+port:22   # 屏蔽22端口
+regexp:(.*\.||)(360|so)\.(cn|com|com.cn) #过滤360服务
+regexp:(.*\.||)(rising|kingsoft|duba|xindubawukong|jinshanduba)\.(com|net|org) #过滤金山服务
+regexp:(.*\.||)(gash|mycard)\.(com|tw) #过滤可能涉及虚拟商品交易，数字点数卡交易服务的网站
+regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD|IDM|IDMan)(.) #过滤可能涉及多线程下载，P2P下载服务，BT种子下载服务和磁力链接下载服务的网站
+regexp:(^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la) #过滤可能与临时邮箱或垃圾邮件攻击服务有关的网站
 # 轮子、Fake News
 falundafa
 minghui
